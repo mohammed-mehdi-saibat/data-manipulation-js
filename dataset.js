@@ -866,5 +866,16 @@ function getEmployeesByProject(project) {
   return output;
 }
 // console.log(getEmployeesByProject("Project Gamma"));
+//13.
+function getEmployeesWithMoreThankTwoSkills() {
+  let output = [];
+  for(i of employees) {
+    if(i.skills.length > 2) {
+      output.push(i);
+    }
+  }
+  return output;
+}
+// console.log(getEmployeesWithMoreThankTwoSkills())
 //====================================MEDIUM
 
