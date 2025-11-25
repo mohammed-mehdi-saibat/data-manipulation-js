@@ -877,5 +877,16 @@ function getEmployeesWithMoreThankTwoSkills() {
   return output;
 }
 // console.log(getEmployeesWithMoreThankTwoSkills())
+//14.
+function getEmployeesByLastNameInitial(letter) {
+  let output = [];
+  for(i of employees) {
+    if(i.lastName[0] === letter) {
+      output.push(i);
+    }
+  }
+  return output;
+}
+// console.log(getEmployeesByLastNameInitial("L"));
 //====================================MEDIUM
 
