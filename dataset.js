@@ -843,3 +843,17 @@ function hasEmployeesWithoutProjects() {
 }
 // console.log(hasEmployeesWithoutProjects())
 //====================================EASY
+//====================================MEDIUM
+//11.
+function countEnglishSpeakingEmployees() {
+  let output = 0;
+  for(i of employees) {
+    if(i.languages.includes("English")) {
+      output++;
+    }
+  }
+  return output
+}
+// console.log(countEnglishSpeakingEmployees())
+//====================================MEDIUM
+
