@@ -820,4 +820,15 @@ function countEmployeesInDepartment(department) {
   return output;
 }
 // console.log(countEmployeesInDepartment("Développement"))
+//9.
+function getUniqueDepartments() {
+  let uniqueDepartments = [];
+  for(i of employees) {
+    if(!uniqueDepartments.includes(i.department)) {
+      uniqueDepartments.push(i.department);
+    }
+  }
+  return uniqueDepartments;
+}
+// console.log(getUniqueDepartments())
 //====================================EASY
