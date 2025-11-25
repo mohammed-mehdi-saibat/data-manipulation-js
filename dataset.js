@@ -778,4 +778,15 @@ function countEmployees() {
   return employees.length;
 }
 // console.log(countEmployees())
+//5.
+function hasInactiveEmployees() {
+  let result = false;
+  for(i of employees) {
+    if(i.isActive === false) {
+      result = true;
+    }
+  }
+  return result
+}
+console.log(hasInactiveEmployees())
 //====================================EASY
