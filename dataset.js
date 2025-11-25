@@ -809,4 +809,15 @@ function getHighestPaidEmployee() {
   return heighestPaidEmployee;
 }
 // console.log(getHighestPaidEmployee())
+//8.
+function countEmployeesInDepartment(department) {
+  let output = 0;
+  for(i of employees) {
+    if(i.department === department) {
+      output++;
+    }
+  }
+  return output;
+}
+console.log(countEmployeesInDepartment("Développement"))
 //====================================EASY
