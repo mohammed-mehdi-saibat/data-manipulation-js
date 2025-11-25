@@ -750,3 +750,11 @@ const employees = [
     languages: ["French", "English", "Italian"]
   }
 ];
+
+//====================================EASY
+//1.
+function getFirstEmployeeFirstName() {
+  return employees[0].firstName
+}
+// console.log(getFirstEmployeeFirstName())
+//====================================EASY
