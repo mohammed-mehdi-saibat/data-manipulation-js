@@ -855,5 +855,16 @@ function countEnglishSpeakingEmployees() {
   return output
 }
 // console.log(countEnglishSpeakingEmployees())
+//12.
+function getEmployeesByProject(project) {
+  let output = [];
+  for(i of employees) {
+    if(i.projects.includes(project)) {
+      output.push(i);
+    }
+  }
+  return output;
+}
+// console.log(getEmployeesByProject("Project Gamma"));
 //====================================MEDIUM
 
