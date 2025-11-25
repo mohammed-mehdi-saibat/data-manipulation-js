@@ -798,4 +798,15 @@ function calculateAverageAge() {
   return Math.floor((agesSum / employees.length) * 10) / 10;
 }
 // console.log(calculateAverageAge())
+//7.
+function getHighestPaidEmployee() {
+  let heighestPaidEmployee = employees[0];
+  for(i of employees) {
+    if(i.salary > heighestPaidEmployee.salary) {
+      heighestPaidEmployee = i;
+    }
+  }
+  return heighestPaidEmployee;
+}
+// console.log(getHighestPaidEmployee())
 //====================================EASY
