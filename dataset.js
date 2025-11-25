@@ -788,5 +788,14 @@ function hasInactiveEmployees() {
   }
   return result
 }
-console.log(hasInactiveEmployees())
+// console.log(hasInactiveEmployees())
+//6.
+function calculateAverageAge() {
+  let agesSum = 0;
+  for(i of employees) {
+    agesSum += i.age;
+  }
+  return Math.floor((agesSum / employees.length) * 10) / 10;
+}
+// console.log(calculateAverageAge())
 //====================================EASY
