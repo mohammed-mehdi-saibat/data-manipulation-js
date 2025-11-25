@@ -831,4 +831,15 @@ function getUniqueDepartments() {
   return uniqueDepartments;
 }
 // console.log(getUniqueDepartments())
+//10.
+function hasEmployeesWithoutProjects() {
+  let output = false;
+  for(i of employees) {
+    if(i.projects == 0) {
+      output = true;
+    }
+  }
+  return output;
+}
+// console.log(hasEmployeesWithoutProjects())
 //====================================EASY
