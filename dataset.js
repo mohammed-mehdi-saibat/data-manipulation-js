@@ -773,4 +773,9 @@ function getEmployeeDepartmentById(searchedId) {
   return result
 }
 // console.log(getEmployeeDepartmentById(5));
+//4.
+function countEmployees() {
+  return employees.length;
+}
+// console.log(countEmployees())
 //====================================EASY
