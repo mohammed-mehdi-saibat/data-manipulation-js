@@ -762,4 +762,15 @@ function getLastEmployeeLastName() {
   return employees[employees.length - 1].lastName
 }
 // console.log(getLastEmployeeLastName())
+//3. 
+function getEmployeeDepartmentById(searchedId) {
+  let result;
+  for(i of employees) {
+    if(i.id === searchedId) {
+      result = i.department
+    }
+  }
+  return result
+}
+// console.log(getEmployeeDepartmentById(5));
 //====================================EASY
