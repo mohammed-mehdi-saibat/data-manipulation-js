@@ -819,5 +819,5 @@ function countEmployeesInDepartment(department) {
   }
   return output;
 }
-console.log(countEmployeesInDepartment("Développement"))
+// console.log(countEmployeesInDepartment("Développement"))
 //====================================EASY
