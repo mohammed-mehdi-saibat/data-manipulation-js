@@ -757,4 +757,9 @@ function getFirstEmployeeFirstName() {
   return employees[0].firstName
 }
 // console.log(getFirstEmployeeFirstName())
+//2.
+function getLastEmployeeLastName() {
+  return employees[employees.length - 1].lastName
+}
+// console.log(getLastEmployeeLastName())
 //====================================EASY
